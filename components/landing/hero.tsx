@@ -20,7 +20,7 @@ export default function Hero() {
         alt="Hero background"
         fill
         priority
-        className="object-cover object-center"
+        className="object-cover object-right"
       />
       {/* Dark gradient overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(100deg,rgba(5,7,11,0.97)_30%,rgba(5,7,11,0.70)_58%,rgba(5,7,11,0.20)_100%)]" />
