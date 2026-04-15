@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { FadeIn } from '@/components/ui/fade-in'
 
-const GOOGLE_FORM_URL = 'YOUR_GOOGLE_FORM_URL_HERE'
+const GOOGLE_FORM_URL = 'https://forms.gle/9B7JfgMZbpfeMtr49'
 
 const cards = [
   { title: 'Selected Producers.', desc: 'Every submission is reviewed by hand.' },
