@@ -50,19 +50,32 @@ export default function Hero() {
               selected, not listed. Submissions are reviewed. Only the best go to auction.
             </p>
           </FadeIn>
-          <FadeIn delay={0.4}>
-            <div className="mt-9">
-              <a
-                href={GOOGLE_FORM_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-[#5ebdff] px-8 py-4 text-base font-semibold text-[#05070b] transition-opacity hover:opacity-90"
-              >
-                Apply as a Founding Producer
-                <span aria-hidden>→</span>
-              </a>
-            </div>
-          </FadeIn>
+
+          {/* Button — no FadeIn wrapper, renders immediately */}
+          <div className="mt-9">
+            <a
+              href={GOOGLE_FORM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                backgroundColor: '#5ebdff',
+                color: '#05070b',
+                fontWeight: '600',
+                fontSize: '1rem',
+                padding: '16px 32px',
+                borderRadius: '9999px',
+                textDecoration: 'none',
+                opacity: 1,
+              }}
+            >
+              Apply as a Founding Producer
+              <span aria-hidden>→</span>
+            </a>
+          </div>
+
           {/* Feature cards */}
           <div className="mt-16 flex flex-col gap-3 sm:flex-row sm:gap-4">
             {cards.map(({ title, desc }, i) => (
