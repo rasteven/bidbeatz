@@ -35,7 +35,7 @@ export default function Hero() {
             </p>
           </FadeIn>
           <FadeIn delay={0.1}>
-            <h1 className="text-[3.5rem] font-bold leading-[1.02] tracking-[-0.03em] text-white md:text-[5rem]">
+            <h1 className="text-[4rem] font-bold leading-[1.02] tracking-[-0.03em] text-white md:text-[6rem]">
               Submit Your Sound
             </h1>
           </FadeIn>
